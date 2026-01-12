@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
@@ -33,32 +34,41 @@
       <div class="about-content">
         <div class="about-text">
           <p>
-            Hi! I am Rohan, a third-year undergraduate in the
+            Hi! I am Rohan, a fourth-year undergraduate in the
             <a href="https://www.iitkgp.ac.in/department/CH">Chemical Engineering</a> department at the
             <a href="https://www.iitkgp.ac.in/">Indian Institute of Technology, Kharagpur</a>, enrolled in its Dual Degree course.
             Additionally, I am pursuing a minor degree in
-            <a href="http://www.bt.iitkgp.ac.in/">Biotechnology and Biochemical Engineering</a>. I also intend on acquiring a micro-specialization in High Performance Computing offered by the <a href = "http://www.ccds.iitkgp.ac.in/">Centre for Computational & Data Sciences</a>.
+            <a href="http://www.bt.iitkgp.ac.in/">Biotechnology and Biochemical Engineering</a>. To expand my domain knowledge, I am also doing micro-specializations in High Performance Computing (<a href = "http://www.ccds.iitkgp.ac.in/">Centre for Computational & Data Sciences</a>) and in Microfluidics & Nano patterning (<a href = "https://www.iitkgp.ac.in/department/NT">School of Nanoscience & Technology</a>).
           </p>
-          <p>
-            My research interests lie broadly in Computational Protein Design, Mathematical modelling of biological systems and Machine Learning, particularly applications of ML algorithms in Computational Biology. I am currently working on the modelling of chemotaxis of E. Coli by leveraging concepts of Probability theory, Brownian motion and Stochastic processes. 
-          </p>
-          <p class="contact">
-            <p><a>Institute Email:</a> rgdastidar2069@kgpian.iitkgp.ac.in <br>
-            <a>Personal Email:</a> rgdastidar2069@gmail.com</p>
-            <a href="https://www.linkedin.com/in/rohan-ghosh-dastidar-984577255/">LinkedIn</a> &nbsp;|&nbsp;
-            <a href="#">GitHub</a> &nbsp;|&nbsp;
-            <a href="https://drive.google.com/file/d/1xTtirg0zUMjGBd_tRHN3WkDO84mNB6xK/view?usp=sharing" 
-                target="_blank" 
-                class="cv-link">
-              Updated CV
-            </a>
           
+          <p>
+            My research interests lie broadly in Deep Learning and associated ML frameworks applied to Computational Protein Engineering, Mathematical modelling of biological systems, and Structural Bioinformatics.
           </p>
+          
+          <p class="contact">
+              <p>
+                  <i class="fa-solid fa-envelope"></i> <a>Institute Email:</a> rgdastidar2069@kgpian.iitkgp.ac.in <br>
+                  <i class="fa-regular fa-envelope"></i> <a>Personal Email:</a> rgdastidar2069@gmail.com
+              </p>
+              
+              <a href="https://www.linkedin.com/in/rohan-ghosh-dastidar-984577255/">
+                  <i class="fa-brands fa-linkedin"></i> LinkedIn
+              </a> &nbsp;|&nbsp;
+              
+              <a href="https://github.com/rohangd03">
+                  <i class="fa-brands fa-github"></i> GitHub
+              </a> &nbsp;|&nbsp;
+              
+              <a href="files/rohan_22ch30028_resume_2026.pdf" target="_blank" class="cv-link">
+                  <i class="fa-solid fa-file-pdf"></i> Resume 
+              </a>
+          </p>
+
         </div>
 
         <div class="profile-photo">
-          <a href="images/BTdeptwithbackground.jpg">
-            <img src="images/BTdeptwithBackground.jpg" alt="Rohan Ghosh Dastidar" class="photo">
+          <a href="images/andaman_profile_photo.jpeg">
+            <img src="images/andaman_profile_photo.jpeg" alt="Rohan Ghosh Dastidar" class="photo">
           </a>
         </div>
       </div>
@@ -68,7 +78,41 @@
 <!-- ------------------------------------------------------------------------------------- -->
 
     <section class="research">
-      <h2>Research</h2>
+      <h2>Research Projects</h2>
+
+            <!-- ----------- (5) BTP --------------------------------------------------------------- -->
+      <div class="research-item">
+        <a href="images/btp_1_graphical_abstract.png">
+          <img src="images/btp_1_graphical_abstract.png" alt="Computational Prediction of disordered regions in proteins from DNA sequence" class="research-img">
+        </a>
+
+        <div class="research-description">
+          <h3 class="papertitle">Computational Prediction of disordered regions in proteins from DNA sequence</h3>
+          <p class = "justified-text">
+            <i>Supervisor: Prof. Ranjit Prasad Bahadur, Dept. of Bioscience & Biotechnology, IIT Kharagpur, India</i> <br>
+             In my Bachelor Thesis Project, I developed a bioinformatics pipeline to predict intrinsic disorder in proteins using machine learning. Furthermore, I performed genomic analysis of specific organisms from the three domains – bacteria, archaea, eukarya to assess
+             the nature of disordered regions in those proteomes.
+          </p>
+        </div>
+      </div>
+
+
+      <!-- ----------- (4) IISC BANGALORE --------------------------------------------------------------- -->
+      <div class="research-item">
+        <a href="images/csb_summer_intern_graphical_abstract.png">
+          <img src="images/csb_summer_intern_graphical_abstract.png" alt="Stability of mRNA expression in toggle switch across varying noise levels" class="research-img">
+        </a>
+
+        <div class="research-description">
+          <h3 class="papertitle">Investigation of the role of transcriptional noise in Epithelial-Mesenchymal state switching</h3>
+          <p class = "justified-text">
+            <i>Supervisor: Prof. Mohit Kumar Jolly, Cancer Systems Biology Lab, Param Hansa Centre for Computational Oncology, IISc Bengaluru, India</i> <br>
+             In this project, I investigated the role of Transcriptional Noise in Epithelial-Mesenchymal Heterogeneity to study phenotypic switching. By simulating gene regulatory networks using Stochastic Differential Equations and high-throughput parameter
+scans, I obtained time series data of mRNA expressions by different nodes in a genetic toggle switch and then performed statistical measurements on such expression patterns. I also implemented a ”partitioned leaping” simulation algorithm from available literature to optimize space and time complexity of stochastic simulations instead of depending on conventional simulation schemes such as Gillespie or SDE's to mediate time efficiency and accuracy.
+          </p>
+        </div>
+      </div>
+
 
       <!-- ----------- (3) CHEMOTAXIS --------------------------------------------------------------- -->
       <div class="research-item">
@@ -110,7 +154,7 @@
         <div class="research-description">
           <h3 class="papertitle">Designing therapeutics to target protein-protein interactions leading to diseases</h3>
           <p class = "justified-text">
-            <i>Supervisor: Prof. Soumya De, Protein Engineering lab, Dept. of Bioscience & Biotechnology, IIT Kharagpur</i> <br>
+            <i>Supervisor: Prof. Soumya De, Protein Engineering lab, Dept. of Bioscience & Biotechnology, IIT Kharagpur</i><br>
             This project involved the development of novel methods for the synthesis of cyclic peptides to inhibit cancer-causing interactions.
             I conducted extensive literature study on mechanisms of intein splicing, interaction of proteins with cyclic peptides and performed analysis of protein structures using PyMOL. I also learned important laboratory procedures in molecuar biology - cloning, SDS PAGE, PCR, site-directed mutagenesis, protein purification by Ni-NTA Affinity Chromatography, primary culture & protein expression.
           </p>

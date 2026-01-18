@@ -79,7 +79,7 @@ body {
           rgba(255, 255, 255, 0.7), /* 70% white overlay */
           rgba(255, 255, 255, 0.7)
         ), 
-        url('images/bg1.png');
+        url('images/bg1.avif');
     background-size: cover;      /* Fills the whole screen */
     background-position: center; /* Centers the image */
     background-attachment: fixed;
